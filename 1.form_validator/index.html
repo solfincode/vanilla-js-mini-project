@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+	<!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title></title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+			rel="stylesheet"
+		/>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="w-1/4 m-auto container mt-6">
+			<form id="form" class="form">
+				<h2 class="text-4xl text-bold">Registrtion</h2>
+				<div class="form-control mt-6">
+					<label for="username">username</label>
+					<input id="username" type="text" placeholder="username" />
+					<small>Error Message</small>
+				</div>
+				<!-- email -->
+				<div class="form-control input-group mt-4">
+					<label for="email">email</label>
+					<input
+						class="mt-2 appearance-none relative block w-full px-3 py-2 border border-gray-700 placeholder-gray-700 text-gray-900 rounded focus:outline-none focus:shadow-outline-blue focus:border-blue-700 focus:z-10 sm:text-sm sm:leading-5"
+						id="email"
+						type="text"
+						placeholder="email"
+					/>
+					<small>Error Message</small>
+				</div>
+				<!-- password -->
+				<div class="form-control input-group mt-4">
+					<label for="password">password</label>
+					<input
+						class="mt-2 appearance-none relative block w-full px-3 py-2 border border-gray-700 placeholder-gray-700 text-gray-900 rounded focus:outline-none focus:shadow-outline-blue focus:border-blue-700 focus:z-10 sm:text-sm sm:leading-5"
+						id="password"
+						type="password"
+						placeholder="enter password"
+					/>
+					<small>Error Message</small>
+				</div>
+				<!-- password 2 -->
+				<div class="form-control input-group mt-4">
+					<label for="password2">Confirm password</label>
+					<input
+						class="mt-2 appearance-none relative block w-full px-3 py-2 border border-gray-700 placeholder-gray-700 text-gray-900 rounded focus:outline-none focus:shadow-outline-blue focus:border-blue-700 focus:z-10 sm:text-sm sm:leading-5"
+						id="password2"
+						type="password"
+						placeholder="confirm password"
+					/>
+					<small>Error Message</small>
+				</div>
+				<button
+					class="mt-10 relative w-full flex justify-center py-2 px-4 border border-transparent text-sm leading-5 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700"
+					type="submit"
+				>
+					Submit
+				</button>
+			</form>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>

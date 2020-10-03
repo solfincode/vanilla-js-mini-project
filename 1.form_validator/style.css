@@ -1,0 +1,40 @@
+.form-control small {
+    visibility: hidden;
+    display: none;
+}
+
+.error small {
+    visibility: visible;
+    display: block;
+    color: #f74418;
+}
+
+.form-control.error input {
+    border-color: #f74418;
+}
+
+.form-control.success input {
+    border-color: #04f0a9;
+}
+
+.form-control input {
+    appearance: none;
+    border-color: #4a5568;
+    border-radius: .25rem;
+    border-width: 1px;
+    display: block;
+    margin-top: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    position: relative;
+    color: #1a202c;
+    width: 100%;
+}
+
+.form-control input:focus {
+    outline: 0;
+    border-color: rgb(76, 81, 191);
+    border-width: 0.1rem;
+}
